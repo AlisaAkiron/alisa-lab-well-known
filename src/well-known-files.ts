@@ -3,9 +3,4 @@ type WellKnownFile = {
   fileName: string;
 };
 
-export const wellKnownFiles: WellKnownFile[] = [
-  {
-    name: "Microsoft Identity Association",
-    fileName: "microsoft-identity-association.json",
-  },
-];
+export const wellKnownFiles: WellKnownFile[] = [];
